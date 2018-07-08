@@ -1,0 +1,17 @@
+{
+  "name": "travel-bucketlist",
+  "version": "1.0.0",
+  "description": "My Personal Travel Bucket List",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "~2.8.3",
+    "express": "^4.16.3",
+    "mongoose": "~4.11.0"
+  },
+  "author": "Lokanath",
+  "license": "ISC"
+}
