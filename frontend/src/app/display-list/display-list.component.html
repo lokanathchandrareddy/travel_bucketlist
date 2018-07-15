@@ -1,0 +1,24 @@
+<h2> My Travel BucketList</h2>
+
+
+<table id= "table">
+  <thead>
+    <tr>
+      <th>Level of Importance</th>
+      <th>Place Name</th>
+      <th>Details</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let list of lists"> 
+      <td>{{ list.category}}</td>
+      <td>{{list.title}</td>
+      <td>{{list.description}}</td>
+      <td> <button type="button" (click)="deleteList(list); $event.stopPropogation();">Delete </button> </td>
+
+    </tr>
+  </tbody>
+</table>
+
+<app-new-list> </app-new-list>
